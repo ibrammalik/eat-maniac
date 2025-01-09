@@ -1,0 +1,59 @@
+<div id="restaurant-detail-container" tabindex="0">
+    <img id="restaurant__poster" class="restaurant__poster" tabindex="0" />
+    <!-- src="${CONFIG.BASE_IMAGE_URL}large/${restaurant.pictureId}"" alt="${restaurant.name}" -->
+    <header id="restaurant__header" class="restaurant__header" tabindex="0">
+        <h2 id="restaurant__title" class="restaurant__title" tabindex="0"><!-- ${restaurant.name} --></h2>
+    </header>
+    <div class="restaurant__detail" tabindex="0">
+        <h3 tabindex="0">Detail Restoran</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4 class="row" tabindex="0">Kota</h4>
+                </td>
+                <td>
+                    <p class="row" id="restaurant__city" tabindex="0"><!-- ${restaurant.city} --></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4 class="row" tabindex="0">Alamat</h4>
+                </td>
+                <td>
+                    <p class="row" id="restaurant__address" tabindex="0"><!-- ${restaurant.address} --></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4 class="row" tabindex="0">Kategori</h4>
+                </td>
+                <td>
+                    <p id="restaurant__detail__categories" class="restaurant__detail__categories row"></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="restaurant__description" tabindex="0">
+        <h3 tabindex="0">Deskripsi Restoran</h3>
+        <p id="restaurant__description__text" tabindex="0"><!-- ${restaurant.description} --></p>
+    </div>
+    <div id="restaurant-menus" tabindex="0">
+        <h3 tabindex="0">Menu</h3>
+        <div id="restaurant-menus__foods">
+            <h4 tabindex="0">Makanan</h4>
+            <div id="restaurant-menus__foods__container" class="menus-container" tabindex="0"></div>
+        </div>
+        <div id="restaurant-menus__drinks">
+            <h4 tabindex="0">Minuman</h4>
+            <div id="restaurant-menus__drinks__container" class="menus-container" tabindex="0"></div>
+        </div>
+    </div>
+    <div class="restaurant__review">
+        <h3 class="header" tabindex="0">Ulasan Pengunjung</h3>
+        <div id="restaurant__rating__container" class="rating__container">
+            <i class="fa fa-solid fa-star"></i>
+            <p id="restaurant__rating" class="rating" tabindex="0"><!-- ${restaurant.rating} --></p>
+        </div>
+        <div id="customer-reviews-section" tabindex="0"></div>
+    </div>
+</div>

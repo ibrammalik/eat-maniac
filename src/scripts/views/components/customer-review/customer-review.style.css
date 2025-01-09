@@ -1,0 +1,25 @@
+.customer-review__container {
+    border-bottom: 0.5rem solid rgb(225, 225, 225);
+    padding: 1rem;
+}
+
+.customer-review__information {
+    display: flex;
+    align-items: center;
+}
+
+.customer-review__information__user-profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.customer-review__information__user-name {
+    margin-right: auto;
+    margin-left: 1rem;
+    font-weight: 800;
+
+}
+.customer-review__information__review-date {
+    font-size: 0.75rem;
+}

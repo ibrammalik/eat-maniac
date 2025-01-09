@@ -1,0 +1,35 @@
+.update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 7px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.update p {
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    padding: 0.45rem;
+    padding-right: 25px;
+    border-radius: 7px;
+    right: 25px;
+    width: 150px;
+}
+
+.update i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    font-size: 1.8rem;
+    border-radius: 50%;
+    background-color: rgba(255, 187, 0, 1);
+}

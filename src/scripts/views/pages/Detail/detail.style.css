@@ -1,0 +1,122 @@
+#restaurant-detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.restaurant__header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 3px solid rgb(225, 225, 225);
+}
+
+.restaurant__title {
+    width: 100%;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.restaurant__poster {
+    width: 100%;
+    height: 454px;
+    object-fit: cover;
+}
+
+.restaurant__detail {
+    width: 100%;
+    padding: 1rem;
+}
+
+.restaurant__detail h3 {
+    margin: 0;
+}
+
+.restaurant__detail table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border-bottom: 1px solid rgb(225, 225, 225);
+    border-collapse: collapse;
+}
+
+.row {
+    margin-bottom: 0.8rem;
+}
+
+.restaurant__description {
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 3px solid rgb(225, 225, 225);
+}
+
+.restaurant__description h3 {
+    margin: 0;
+}
+
+.restaurant__review {
+    width: 100%;
+}
+
+.restaurant__review .header {
+    padding: 1rem;
+    margin: 0;
+}
+
+.restaurant__review .rating__container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.restaurant__review .rating__container i {
+    font-size: 1.6rem;
+    color: orange;
+}
+
+.restaurant__review .rating {
+    margin: 0;
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+#restaurant-menus {
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 3px solid rgb(225, 225, 225);
+}
+
+#restaurant-menus h3 {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgb(225, 225, 225);
+}
+
+#restaurant-menus__foods {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgb(225, 225, 225);
+}
+
+.menus-container {
+    display: flex;
+    gap: 1.2rem;
+    overflow: auto;
+    padding: 1rem 1rem;
+}
+
+@media only screen and (min-width: 1200px) {
+    .restaurant__poster {
+        width: 1000px;
+        border-radius: 7px;
+    }
+}

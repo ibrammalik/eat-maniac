@@ -1,0 +1,11 @@
+/*
+  Like
+*/
+.like {
+    border: none;
+    font-size: 2.6rem;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+    /* padding: 1rem; */
+}
